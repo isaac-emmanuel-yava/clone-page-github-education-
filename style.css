@@ -1,0 +1,564 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mona Sans","Mona Sans Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+header{
+    background-color: rgb(19, 19, 91);
+    margin-bottom: 0;
+}
+/* partie navbar header */
+.navbar{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    padding: 0rem 2rem;
+    margin-bottom: 0rem;
+}
+.div1navbar{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.div2navbar{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.select-navbar, .button-navbar{
+    background-color: black;
+    color: white;
+    border: black;
+}
+.input-navbar1, .input-navbar2, .label-navbar{
+    background-color: black;
+    color: white;
+}
+.input-navbar1, .input-navbar2{
+    border-radius: 5px;
+}
+.input-navbar1{
+    width: 15rem;
+    height: 1.8rem;
+}
+.button-navbar2{
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem;
+    width: 7rem;
+    height: 1.8rem;
+}
+.button-navbar1{
+    background-color: black;
+    color: white;
+    border: black;
+}
+
+/*deuxieme partie header */
+.liste-header a,.liste-header ul{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    
+}
+.liste-header ul{
+    display: flex;
+    gap: 1rem;
+
+}
+.liste-header{
+    color: white;
+    padding: 1rem 0rem;
+    padding: 1rem 2rem;   
+}
+
+/* partie hero */
+.hero{
+    background-image: url('img/home.webp');
+    background-size:cover;
+    padding: 7rem 7rem;
+    font-family:"Mona Sans","Mona Sans Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" ;
+    color:white;
+    
+}
+.hero h1{
+    font-size: 3.5rem;
+    width: 50rem;
+    margin: 1rem 0rem;
+}
+.hero p{
+    font-size: 1.5rem;
+    margin: 1rem 0rem; 
+    width:50%;
+}
+
+.input1{
+   border-radius: 10px;
+   border:1px solid white;
+   padding: 0.7rem;
+   font-weight: 700;
+
+}
+.span1{
+    padding: 0.1rem 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid white;
+    
+}
+/* section1 main presentation */
+.presentation{
+    padding: 5rem 7rem;
+    width: 70rem;
+    font-size: 2.7rem;
+    color: gray;
+    font-weight: 650;
+}
+.pres{
+    color: black;
+}
+
+.div-card{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 7rem;
+
+}
+.card{
+    width: 30%;
+    background-color: #e8f5f0;
+    border-radius: 15px;
+    padding: 2rem 1.5rem;
+    padding-bottom: 2rem;
+}
+.card i,.card h2,.card p{
+    margin-top: 1rem;
+}
+.card i{
+    font-size: 1.5rem;
+}
+
+/* section2 main filiers */
+.filiere{
+     display: flex;
+    justify-content: space-between;
+     font-size: 1.2rem;
+     padding: 0rem 7rem;
+}
+.filiere1{
+     margin-top: 7rem;
+}
+.filiere3{
+margin-top: 3rem;
+}
+.filiere2{
+   margin-top: 4rem;
+}
+.filiere4{
+    margin-top: 4rem;
+    padding-bottom: 7rem;
+}
+.filiere-text{
+    width:25rem;
+    padding-top: 5.5rem;
+}
+.filiere-text1{
+    padding-right: 2rem;
+     width:25rem;
+     padding-top: 5.5rem;
+}
+.filiere-text h2, p{
+    margin-bottom: 0.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+.filiere-text a, .filiere-text1 a{
+    text-decoration: none;
+}
+.filiere-img{
+
+}
+
+/* section main temoignage */
+.temoignage{
+    display: flex;
+    padding: 7rem;
+    gap: 4rem;
+    font-size: 1.5rem;
+    color: gray;
+}
+.div-temoignage{
+    width: 50%;
+}
+.guil{
+    font-size: 2rem;
+}
+.personne{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 1.5rem;
+    
+}
+.personne img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.personne p, strong{
+    font-size: 0.9rem;
+    margin: 0;
+}
+.section3, .section4{
+    background-color: #e8f5f0;
+}
+
+/* div commencez parcours */
+.div-commencez{
+    padding: 3rem 7rem;
+}
+.commencez{
+    border: 1px solid blue;
+    background-color: white;
+    padding: 5rem 5rem;
+    text-align: center;
+    border-radius: 1.5rem;
+}
+.commencez h2{
+    font-size: 4rem;
+    font-family: fantasy;
+    font-weight: normal;
+    padding-bottom: 2rem;
+}
+.commencez p{
+    padding-bottom: 2rem;
+    font-family: fantasy;
+    font-weight: normal;
+    color: gray;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    height: 2.5rem;
+   
+}
+.button1{
+    width: 15rem;
+    background-color: black;
+    color: gray;
+    border-radius: 0.5rem;
+}
+.button2{
+    width: 10rem;
+    background-color: white;
+    border: 1px solid gray;
+    color: gray;
+    border-radius: 0.5rem;
+
+}
+
+/* section allez plus loin & foires aux questions */
+
+/* div allez plus loin*/
+
+.titres4{
+    text-align: center;
+    padding: 5rem 0rem;
+    font-family: fantasy;
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+.div-carte{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 7rem;
+
+}
+.carte{
+    width: 25rem;
+    background-color: white;
+    border-radius: 15px;
+    padding: 2rem 3rem;
+    padding-bottom: 2rem;
+    margin-bottom: 5rem;
+    padding-top: 1rem
+}
+.carte h2{
+    font-size: 1.2rem;
+}
+.carte i,.carte h2,.carte p{
+    margin-top: 1rem;
+}
+.carte3 p{
+    padding-bottom: 5.2rem;
+}
+.carte2 p{
+    padding-bottom: 4rem;
+}
+.carte1 p{
+    padding-bottom: 1.5rem;
+}
+.carte a{
+    text-decoration: none;
+    color: skyblue;
+}
+
+/* div foire aux questions */
+
+.question{
+    padding: 0rem 26rem;
+    padding-bottom: 5rem;
+}
+.question1{
+    display: flex;
+    gap: 25.7rem;
+} 
+.question2{
+    display: flex;
+    gap: 20rem;
+    align-items: center;
+}
+.question1, .question2, hr{
+    margin-bottom: 1rem;
+
+}
+.question1 a, .question2 a{
+    text-decoration: none;
+    font-size: 1rem ;
+}
+
+/* footer partie 1 */
+
+.div1-footer{
+    display: flex;
+    padding: 4rem 7rem ;
+    gap: 4.5rem;
+}
+
+.logo-footer{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.logo-footer span{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.text-footer{
+    font-size: 0.8rem;
+    width: 25rem;
+}
+.text-footer button{
+    width: 7rem;
+    height: 2rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+.text-footer p{
+    color:gray ;
+    font-weight: bold;
+}
+.liste ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: gray;
+}
+ 
+/* footer partie 2 */
+
+.div2-footer{
+    display: flex;
+    gap: 2rem;
+    background-color: #e8f5f0;
+    padding: 1rem;
+    align-items: center;
+}
+.infos{
+    display: flex;
+    gap: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.infos a{
+    text-decoration: none;
+}
+.icons{
+    display: flex;
+    gap: 0.5rem;
+}
+
+
+/* partie responsive */
+@media(max-width:768px){
+    /* Navbar */
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+        gap: 1rem;
+    }
+    .div1navbar, .div2navbar {
+        width: 100%;
+        justify-content: center;
+    }
+   
+    /* Header */
+    .liste-header ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+   
+    /* Hero */
+    .hero {
+        padding: 3rem 1.5rem;
+        text-align: center;
+    }
+    .hero h1 {
+        font-size: 2.2rem;
+        width: 100%;
+    }
+    .hero p {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+   
+    /* Présentation */
+    .presentation {
+        padding: 3rem 1.5rem;
+        width: 100%;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .div-card {
+        flex-direction: column;
+        padding: 0 1.5rem;
+        gap: 1.5rem;
+    }
+    .card {
+        width: 100%;
+    }
+   
+    /* Filières */
+    .filiere {
+        flex-direction: column;
+        padding: 0 1.5rem;
+    }
+    .filiere1, .filiere2,
+    .filiere3, .filiere4 {
+        margin-top: 3rem;
+        flex-direction: column;
+    }
+    .filiere4{
+        padding-bottom: 1rem;
+    }
+    .filiere-text {
+        width: 100%;
+        padding-top: 1rem;
+        align-items: center;
+    }
+    .filiere-img {
+        order: -1;
+        margin-bottom: 1.5rem;
+    }
+    .filiere-img img {
+        width: 100%;
+    }
+   
+    /* Témoignages */
+    .temoignage {
+        flex-direction: column;
+        padding: 3rem 1.5rem;
+    }
+    .div-temoignage {
+        width: 100%;
+    }
+   
+    /* Commencez */
+    .div-commencez {
+        padding: 2rem 1.5rem;
+        
+    }
+    .commencez {
+        padding: 2rem 1rem;
+        padding-bottom: 3rem;
+    }
+    .commencez h2 {
+        font-size: 2.5rem;
+    }
+    .button {
+        flex-direction: column;
+        gap: 0.3rem;
+        
+    }
+    .button1{
+        background-color: black;
+        color: white;
+        border-radius: 0.5rem;
+        padding: 0.7rem;
+        width: 18rem;
+        
+    }
+    .button2{
+        background-color: white;
+        border: 1px solid gray;
+        color: black;
+        border-radius: 0.5rem;
+        padding: 0.7rem;
+        width: 18rem;
+    }
+   
+    /* Cartes */
+    .titres4 {
+        padding: 3rem 1rem;
+        font-size: 2rem;
+    }
+    .div-carte {
+        flex-direction: column;
+        padding: 0 1.5rem;
+        align-items: center;
+    }
+    .carte {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+   
+    /* Questions */
+    .question {
+        padding: 0 1.5rem 3rem;
+    }
+    .question1, .question2 {
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+   
+    /* Footer */
+    .div1-footer {
+        flex-direction: column;
+        padding: 2rem 1.5rem;
+        gap: 2rem;
+    }
+    .text-footer {
+        width: 100%;
+    }
+    .div2-footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .infos {
+        flex-direction: column;
+    }
+}
+
+
+
